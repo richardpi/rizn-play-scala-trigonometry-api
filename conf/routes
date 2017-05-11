@@ -1,0 +1,34 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+###
+#{
+#	"responses": {
+#		"200": {
+#			"description": "success"
+#		}
+#	}
+#}
+###
+GET     /                    controllers.HomeController.index
+
+### NoDocs ###
+GET     /swagger.json        controllers.ApiSpecs.specs
+
+### NoDocs ###
+GET     /docs/*file          controllers.Assets.versioned(path:String="/public/lib/swagger-ui", file:String)
+
+###
+#{
+#	"responses": {
+#		"200": {
+#			"description": "generating triangle data in json using laws of sine and cosine"
+#		},
+#		"400": {
+#			"description": "incorrect data provided or triangle can't be concluded"
+#		}
+#	}
+#}
+###
+POST  /api/triangle          controllers.TrigController.generateTriangle

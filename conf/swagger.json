@@ -1,0 +1,23 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Trigonometry API",
+    "description": "Utilising Law of Sines and Law of Cosines to determine missing sides and angles for triangle cases: ASA, SAA, SSA, SAS, SSS",
+    "contact": {
+      "name": "Rizn",
+      "email": "rizn.a1200@gmail.com",
+      "url": "localhost:9000"
+    }
+  },
+  "host": "localhost:9000",
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ]
+}
