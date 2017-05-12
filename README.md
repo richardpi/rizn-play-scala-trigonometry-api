@@ -126,9 +126,11 @@ http://localhost:9000/swagger.json
 
 ##### Live example:
 
-To test API, go to url below. Please give couple of seconds to return response as we use free dyno on heroku:
+To test API, go to url below (POST method and Content-Type: application/json). Please give couple of seconds to return response as we use free dyno on heroku:
 
-[http://trig.rizn.pl/api/triangle](http://trig.rizn.pl/api/triangle)
+```
+http://trig.rizn.pl/api/triangle
+```
 
 
 ##### Blog:
